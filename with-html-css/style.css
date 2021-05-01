@@ -54,6 +54,8 @@ h2 {
 
 .project-section {
   background-color: #f3f4f6;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .project-section > h1 {
@@ -85,7 +87,7 @@ h2 {
 }
 
 .grid-project-title {
-  color: #f3f4f6;
+  color: #1f2937;
   padding-top: 30px;
   font-size: 25px;
   text-align: center;
@@ -96,34 +98,125 @@ h2 {
 }
 
 .about-section {
-  padding-top: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-color: #10b981;
 }
 
-.about-section > h1 {
-  color: #1f2937;
+.about-section,
+.contact > h1 {
+  color: #f3f4f6;
   font-size: 40px;
   text-align: center;
+}
+
+.about-me {
+  color: #f3f4f6;
+  text-align: center;
+  margin-top: 40px;
+  margin-right: 40px;
+  margin-left: 40px;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+}
+
+.contact {
+  background-color: #f3f4f6;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.contact > h1 {
+  color: #1f2937;
+}
+
+.contact-form {
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.contact-form > form {
+  display: grid;
+  grid-template-columns: 80px 100px;
+  grid-row-gap: 30px;
+}
+
+label,
+input,
+textarea {
+  font-size: 18px;
+  color: #1f2937;
+  background-color: #f3f4f6;
+}
+
+input,
+textarea {
+  width: 200px;
+  padding: 5px 10px;
+  border: 1px solid #1f2937;
+  border-radius: 10px;
+}
+
+.submit-btn {
+  background-color: #10b981;
+  color: #1f2937;
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.submit-btn:hover {
+  opacity: 0.5;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #f3f4f6;
+  height: 40vh;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.location,
+.web {
+  padding-bottom: 50px;
+}
+
+.location > h1,
+p,
+.web > h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+p,
+li {
+  font-size: 18px;
+}
+
+li {
+  border-radius: 50%;
+  border: 1px solid #f3f4f6;
+  padding: 10px;
+  margin-left: 20px;
 }
 
 @keyframes animationOpacity {
   from {
     opacity: 1;
-    width: 200px;
   }
   to {
     opacity: 0.5;
-    width: 250px;
-  }
-}
-
-@keyframes animationTitle {
-  from {
-    font-size: 25px;
-    font-weight: 100;
-  }
-  to {
-    font-size: 30px;
-    font-weight: 900;
   }
 }
